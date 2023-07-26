@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>계산기</title>
+</head>
+<body>
+<h2>간단한 계산기</h2>
+<div>
+  <form action="/01_servlet/Ex07" method="get">
+  <fideldset>
+    <p>
+      <label for="math">수1:</label>
+      <input type="number" name="math" id="math" required>
+    </p>
+    <p>
+      <label for="math2">수2:</label>
+      <input type="number" name="math2" id="math2" required>
+    </p>
+    <p><label>연산자 :</label>
+      <input type="radio" name="oper" value="+" id="add" required>
+      <label for="add">+</label>
+      <input type="radio" name="oper" value="-" id="subtract" required>
+      <label for="subtract">-</label>
+      <input type="radio" name="oper" value="*" id="multiply" required>
+      <label for="multiply">*</label>
+      <input type="radio" name="oper" value="/" id="divide" required>
+      <label for="divide">/</label>
+    </p>
+    </fideldset>
+    
+      <input type="submit" value="계산하기">
+    
+  </form>
+  </div>
+</body>
+</html>
